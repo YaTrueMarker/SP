@@ -17,6 +17,6 @@ def send_file(sck: socket.socket, filename):
 with socket.create_connection(("localhost", 6190)) as conn:
     print("Подключение к серверу.")
     print("Передача файла...")
-    send_file(conn, "image.png")
+    send_file(conn, "lab2image.jpg")
     print("Отправлено.")
 print("Соединение закрыто.")

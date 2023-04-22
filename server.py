@@ -44,6 +44,6 @@ with socket.create_server(("localhost", 6190)) as server:
     filename2=conn.recv(1024).decode()
     if("file" in filename2.split('$')[0]):
         print(filename2)
-        receive_file(conn, filename2.split('$')[1]+"22.png")
+        receive_file(conn, filename2.split('$')[1]+"22.jpg")
     print("Файл получен.")
 print("Соединение закрыто.")
