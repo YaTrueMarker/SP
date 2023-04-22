@@ -5,7 +5,7 @@ ________________________
 Библиотеки необходимые для запуска 
 
 ---
-https://img.shields.io/badge/Python-v3.9.7-blue?style=for-the-badge
+
 ---
 
 ---
