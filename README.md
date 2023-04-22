@@ -18,8 +18,8 @@
 Библиотеки необходимые для работы скрипта server.py:
 
 ---
-
+```Python
 import socket
 from threading import Thread
-
+```
 ---
