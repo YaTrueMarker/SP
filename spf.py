@@ -1,4 +1,4 @@
-import poplib
+import imaplib
 import email
 
 # Указываем параметры для подключения к почтовому серверу
@@ -7,7 +7,7 @@ username = 'markalyanov@mail.ru'
 password = 'NQeVmjL3X3bdVVD8gHJU'
 
 # Подключаемся к почтовому серверу
-mail = poplib.IMAP4_SSL(mail_server)
+mail = imaplib.IMAP4_SSL(mail_server)
 mail.login(username, password)
 
 # Выбираем папку входящих сообщений
